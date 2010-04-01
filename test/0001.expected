@@ -1,40 +1,23 @@
 not found in 'runtimepath': "ftdetect/*.vim"
-===== "Check global variables"
-TEST: !!exists('g:loaded_textobj_syntax')  ==>  1 ... ok
-Result: 1 / 1
+==== global_variables 
+---- It "Check global variables" 
+.
 
-===== "Check the existence of the named key mappings in each mode"
-TEST: maparg(_, 'c') != ''  ==>  0 ... ok
-TEST: maparg(_, 'i') != ''  ==>  0 ... ok
-TEST: maparg(_, 'n') != ''  ==>  0 ... ok
-TEST: maparg(_, 'o') != ''  ==>  1 ... ok
-TEST: maparg(_, 'v') != ''  ==>  1 ... ok
-TEST: maparg(_, 'c') != ''  ==>  0 ... ok
-TEST: maparg(_, 'i') != ''  ==>  0 ... ok
-TEST: maparg(_, 'n') != ''  ==>  0 ... ok
-TEST: maparg(_, 'o') != ''  ==>  1 ... ok
-TEST: maparg(_, 'v') != ''  ==>  1 ... ok
-Result: 10 / 10
+==== named_key_mappings 
+---- It "Check the existence of the named key mappings in each mode" 
+..........
 
-===== "<Plug>(textobj-syntax-a)"
-TEST: @0  ==>  getline('.') ... ok
-TEST: @0  ==>  getline('.') ... ok
-TEST: @0  ==>  '123' ... ok
-TEST: @0  ==>  '/*' ... ok
-TEST: @0  ==>  '/* FIXME: Fix me. ' ... ok
-TEST: @0  ==>  'FIXME' ... ok
-TEST: @0  ==>  '*/' ... ok
-Result: 7 / 7
+==== select_a 
+---- It "<Plug>(textobj-syntax-a)" 
+.......
 
-===== "<Plug>(textobj-syntax-i)"
-TEST: @0  ==>  getline('.') ... ok
-TEST: @0  ==>  getline('.') ... ok
-TEST: @0  ==>  '123' ... ok
-TEST: @0  ==>  '/*' ... ok
-TEST: @0  ==>  '/* FIXME: Fix me. ' ... ok
-TEST: @0  ==>  'FIXME' ... ok
-TEST: @0  ==>  '*/' ... ok
-Result: 7 / 7
+==== select_i 
+---- It "<Plug>(textobj-syntax-i)" 
+.......
 
-===== Total
-Result: 25 / 25
+
+
+**** Result ****
+
+
+25 examples, 0 failures
