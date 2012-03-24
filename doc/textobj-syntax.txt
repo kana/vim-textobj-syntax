@@ -1,6 +1,6 @@
 *textobj-syntax.txt*	Text objects for syntax highlighted items
 
-Version 0.0.0
+Version 0.0.1
 Script ID: 2716
 Copyright (C) 2009 kana <http://whileimautomaton.net/>
 License: MIT license  {{{
@@ -165,7 +165,11 @@ BUGS						*textobj-syntax-bugs*
 ==============================================================================
 CHANGELOG					*textobj-syntax-changelog*
 
-0.0.0	2009-07-18T05:30:23+09:00
+0.0.1	2012-03-24T14:55:25+09:00	      *textobj-syntax-changelog-0.0.1*
+	- Refine the document a bit.
+	- Refine the internal structure a bit.
+
+0.0.0	2009-07-18T05:30:23+09:00	      *textobj-syntax-changelog-0.0.0*
 	- Initial version.
 
 
