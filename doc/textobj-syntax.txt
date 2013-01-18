@@ -168,6 +168,10 @@ BUGS						*textobj-syntax-bugs*
 ==============================================================================
 CHANGELOG					*textobj-syntax-changelog*
 
+0.0.2	2013-01-18T21:17:46+09:00	      *textobj-syntax-changelog-0.0.2*
+	- Support vim-flavor <https://github.com/kana/vim-flavor>.
+	- Update |textobj-syntax-introduction|.
+
 0.0.1	2012-03-24T14:55:25+09:00	      *textobj-syntax-changelog-0.0.1*
 	- Refine the document a bit.
 	- Refine the internal structure a bit.
