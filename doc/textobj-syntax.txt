@@ -1,6 +1,6 @@
 *textobj-syntax.txt*	Text objects for syntax highlighted items
 
-Version 0.0.1
+Version 0.0.2
 Script ID: 2716
 Copyright (C) 2009-2013 Kana Natsuno <http://whileimautomaton.net/>
 License: So-called MIT license  {{{

@@ -1,5 +1,5 @@
 " textobj-syntax - Text objects for syntax highlighted items
-" Version: 0.0.1
+" Version: 0.0.2
 " Copyright (C) 2009-2013 Kana Natsuno <http://whileimautomaton.net/>
 " License: So-called MIT license  {{{
 "     Permission is hereby granted, free of charge, to any person obtaining
